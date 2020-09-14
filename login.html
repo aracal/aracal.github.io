@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="image/header.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/mystyle.css">
+
+    <title>ARACAL.com | Giriş yap veya Kaydol</title>
+</head>
+<body>
+    <div class="header">
+		<ul class="givusacall" style="margin-left: 380px;">
+			<li>Bizi Arayın : 0312 999 99 99 </li>
+		</ul>
+		
+	</div>
+    <div id="logreg-forms">
+        <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Giriş Yap</h1>
+            <div class="social-login">
+                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Facebook ile giriş yap.</span> </button>
+                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Google+ ile giriş yap.</span> </button>
+            </div>
+            <p style="text-align:center"> YA DA  </p>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Şifre" required="">
+            
+            <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Giriş yap</button>
+            <a href="#" id="forgot_pswd">Şifreni mi unuttun?</a>
+            <hr>
+            <!-- <p>Don't have an account!</p>  -->
+            <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Yeni hesap aç</button>
+            </form>
+
+            <form action="/reset/password/" class="form-reset">
+                <input type="email" id="resetEmail" class="form-control" placeholder="Email adresiniz" required="" autofocus="">
+                <button class="btn btn-primary btn-block" type="submit">Şifreyi sıfırla</button>
+                <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i> Geri</a>
+            </form>
+            
+            <form action="/signup/" class="form-signup">
+                <div class="social-login">
+                    <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Facebook ile kaydol.</span> </button>
+                </div>
+                <div class="social-login">
+                    <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Google+ ile kaydol.</span> </button>
+                </div>
+                
+                <p style="text-align:center">OR</p>
+
+                <input type="text" id="user-name" class="form-control" placeholder="Ad Soyad" required="" autofocus="">
+                <input type="email" id="user-email" class="form-control" placeholder="Email adresiniz" required autofocus="">
+                <input type="password" id="user-pass" class="form-control" placeholder="Şifreniz" required autofocus="">
+                <input type="password" id="user-repeatpass" class="form-control" placeholder="Şifrenizi tekrar girin" required autofocus="">
+
+                <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Kaydol</button>
+                <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Geri</a>
+            </form>
+            <br>
+            
+    </div>
+<H3 style="margin-left: 670px;"><a href="index.html">ANA SAYFAYA DÖNMEK İÇİN TIKLAYINIZ</a></H3>
+    <div class="bottommenu">
+		<div class="bottomlogo">
+		<span class="dotlogo">&bullet;</span><img src="image/logo1.png" alt="logo1"><span class="dotlogo">&bullet;;</span>
+		</div>
+	
+		<p>ARACAL.com tüm haklarını saklı tutar. <br>
+			İzinsiz paylaşılan her türlü içerik için yasal işlem başlatılacaktır. </p
+		</div>
+			<div class="footer">
+				<div class="copyright">
+				  &copy; Copyright 2020 | ARACAL.com
+				</div>
+			
+			</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="source/js/login.js"></script>
+    
+</body>
+</html>
