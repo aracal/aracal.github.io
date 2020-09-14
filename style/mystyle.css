@@ -1691,7 +1691,17 @@ height: 30px;
           transition-duration: 0.8s;
 }
 
-
+.column {
+	float: left;
+	width: 33.33%;
+  }
+  
+ 
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
 
 
